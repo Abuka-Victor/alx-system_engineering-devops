@@ -14,7 +14,7 @@ while [ $i -lt 21 ]; do
 			;;
 		17)
 			echo $i
-			echo 'bad lick from Italy'
+			echo 'bad luck from Italy'
 			;;
 		*)
 			echo $i
