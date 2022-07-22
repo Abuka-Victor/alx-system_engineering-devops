@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# A script that prints directory files
+
+for i in *; do 
+	echo "$i" | rev | cut -d "-" -f 1 | rev
+done
