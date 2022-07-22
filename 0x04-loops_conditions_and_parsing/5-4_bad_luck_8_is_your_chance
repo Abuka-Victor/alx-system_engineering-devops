@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Print Best School 10 times - while loop
+i="1"
+while [ $i -lt 11 ]; do 
+		if [ $i == 4 ]
+		then
+			echo 'bad luck'
+		elif [ $i == 8 ]
+		then
+			echo 'good luck'
+		else
+			echo 'Best School'
+		fi
+		i=$((i+1))
+done
