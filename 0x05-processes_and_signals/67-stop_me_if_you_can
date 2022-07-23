@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # stops an infinite loop process without using kill or killall
 
-pkill -f 4-to_infinity_and_beyond
+pkill -f 7-highlander
