@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+# A bash script to connect to ubuntu using an rsa key
 ssh -i ~/.ssh/school ubuntu
