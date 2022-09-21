@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # A bash script to install nginx and configure a hello world site
-apt-get update
-apt-get -y install nginx
+apt update
+apt install -y nginx
 echo "Hello World!" > /var/www/html/index.html
 service nginx restart
