@@ -1,1 +1,7 @@
 #!/usr/bin/env bash
+# A bash script to install nginx and configure a hello world site
+apt update
+apt install -y nginx
+echo "Hello World!" > /var/www/html/index.html
+sed -i '36a rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
+service nginx restart
