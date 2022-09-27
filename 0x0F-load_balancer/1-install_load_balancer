@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# setup load balancer
 apt update
 apt install -y haproxy
 cp -a /etc/haproxy/haproxy.cfg{,.orig}
