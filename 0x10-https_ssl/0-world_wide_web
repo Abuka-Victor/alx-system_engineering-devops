@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# bash script to investigate domain names
 displayParams (){
 	REC=$(dig "$2.$1" | grep -A1 'ANSWER SECTION:' | tail -n 1 | awk '{print $4}')
 	DEST=$(dig "$2.$1" | grep -A1 'ANSWER SECTION:' | tail -n 1 | awk '{print $5}')
