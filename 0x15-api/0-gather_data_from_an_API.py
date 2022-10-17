@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-import requests, sys
+""" A module to get info from an api"""
+import requests
+import sys
 
 if __name__ == "__main__":
 	complete = 0
